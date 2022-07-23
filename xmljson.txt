@@ -1,0 +1,35 @@
+city.xml
+
+<?xml version = "1.0"?>
+<records>
+ <place>
+ <name>Mysore</name>
+ <lat>12.295</lat>
+ <long>76.639</long>
+ <temperature>22</temperature>
+ <humidity>90%</humidity>
+ </place>
+ <place>
+ <name>Bangalore</name>
+ <lat>12.9716</lat>
+ <long>77.594</long>
+ <temperature>25</temperature>
+ <humidity>74%</humidity>
+ </place>
+
+City.json file
+[{
+ "name": "Hassan",
+ "lat": "12.295",
+ "long": "76.639",
+ "temperature": "22",
+ "humidity": "92%"
+},
+ {
+ "name": "Mandya",
+ "lat": "12.9716",
+ "long": "77.5946",
+ "temperature": "25",
+ "humidity": "74%
+}
+]

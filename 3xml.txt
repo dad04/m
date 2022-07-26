@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res-auto"
+ xmlns:tools="http://schemas.android.com/tools"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ tools:context=".MainActivity">
+
+ <TextView
+ android:id="@+id/textView"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="171dp"
+ android:layout_marginBottom="489dp"
+ android:text="SIGN UP"
+ android:textSize="30sp"
+ android:textStyle="bold"
+ tools:layout_editor_absoluteX="142dp"
+ tools:layout_editor_absoluteY="107dp" />
+
+ <EditText
+ android:id="@+id/emailEditText"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="109dp"
+ android:layout_marginBottom="392dp"
+ android:ems="10"
+ android:hint="USERNAME"
+ android:inputType="textEmailAddress"
+ android:textSize="24sp" />
+
+<EditText
+ android:id="@+id/passwordEditText"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="105dp"
+ android:layout_marginBottom="285dp"
+ android:ems="10"
+ android:hint="Password"
+ android:inputType="textPassword"
+ android:textSize="24sp" />
+
+ <Button
+ android:id="@+id/signUpBtn"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="192dp"
+ android:layout_marginBottom="180dp"
+ android:text="Sign Up" />
+</RelativeLayout>
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res-auto"
+ xmlns:tools="http://schemas.android.com/tools"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ tools:context=".LoginActivity">
+ <TextView
+ android:id="@+id/textView2"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+android:layout_alignParentBottom="true"
+ android:layout_marginEnd="202dp"
+ android:layout_marginBottom="516dp"
+ android:text="LOGIN"
+ android:textSize="30sp"
+ android:textStyle="bold" />
+ <EditText
+ android:id="@+id/emailEditText"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="129dp"
+ android:layout_marginBottom="399dp"
+ android:ems="10"
+ android:hint="USERNAME"
+ android:inputType="textEmailAddress" />
+ <EditText
+ android:id="@+id/passwordEditText"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="127dp"
+ android:layout_marginBottom="304dp"
+ android:ems="10"
+ android:hint="Password"
+ android:inputType="textPassword" />
+ <Button
+ android:id="@+id/loginBtn"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="184dp"
+ android:layout_marginBottom="207dp"
+ android:text="login" />
+</RelativeLayout>
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res-auto"
+ xmlns:tools="http://schemas.android.com/tools"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ tools:context=".LoginSuccess">
+ <TextView
+ android:id="@+id/textView3"
+ android:layout_width="wrap_content"
+ android:layout_height="65dp"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="72dp"
+ android:layout_marginBottom="418dp"
+ android:text="LOGIN SUCCESSFUL"
+ android:textSize="30sp"
+ android:textStyle="bold" />
+</RelativeLayout>

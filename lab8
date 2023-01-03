@@ -1,0 +1,18 @@
+from sklearn import datasets
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import confusion_matrix, classification_report
+
+# The dataset used here is iris.csv stored in the anaconda installed folder
+iris = datasets.load_iris()
+# print(iris_labels)
+x_train, X_test, y_train, Y_test = train_test_split(iris.data, iris.target, test_size=0.20)
+
+classifier = KNeighborsClassifier(n_neighbors=5)
+classifier.fit(x_train, y_train)
+
+y_prd = classifier.predict(X_test)
+
+print(confusion_matrix(Y_test, y_prd))
+print(classification_report(Y_test, y_prd))
+
